@@ -1,0 +1,14 @@
+li 0, r1
+li 0, r2
+li 1, r3
+li 4, r4
+bnez r4, r3, 0
+add r1, r2, r2
+li 1, r3
+add r1, r3, r1
+li 7, r3
+li 3, r4
+add r3, r4, r3
+tlt r1, r3, r4
+li -7 r3
+bnez r3, r4, -1
